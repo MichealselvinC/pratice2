@@ -2,13 +2,73 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title> 
+    <title>My Website</title>
     <link rel="stylesheet" href="style.css">
-  </head>
+</head>
 <body>
-    <div class="container">
-        <h1 id="Head">Welcome to My Website</h1>
-        <p id="para">This is a simple HTML page with linked CSS.</p>
-    </div>      
+
+<nav>
+    <div class="logo">MySite</div>
+
+    <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#contact">Contact</a></li>
+    </ul>
+</nav>
+
+<section class="hero" id="home">
+    <h1>Welcome to My Website</h1>
+    <p>Learn HTML, CSS & JavaScript by Building Projects.</p>
+
+    <button id="btn">Get Started</button>
+</section>
+
+<section class="about" id="about">
+    <h2>About Us</h2>
+
+    <p>
+        We create modern and responsive websites using
+        HTML, CSS, and JavaScript.
+    </p>
+</section>
+
+<section class="services" id="services">
+
+    <h2>Our Services</h2>
+
+    <div class="cards">
+
+        <div class="card">
+            <h3>Web Design</h3>
+            <p>Beautiful UI Design.</p>
+        </div>
+
+        <div class="card">
+            <h3>Frontend</h3>
+            <p>Responsive Websites.</p>
+        </div>
+
+        <div class="card">
+            <h3>JavaScript</h3>
+            <p>Interactive Features.</p>
+        </div>
+
+    </div>
+
+</section>
+
+<section class="contact" id="contact">
+
+    <h2>Contact Us</h2>
+
+    <button onclick="contact()">Contact Now</button>
+
+</section>
+
+<script src="script.js"></script>
+
+</body>
+</html>
